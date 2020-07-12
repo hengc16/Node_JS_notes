@@ -41,7 +41,13 @@
   * ...
 * 各种其他服务器
 
+### **MEAN vs MERN**
 
+* M stands for mangodb
+* E stands for express
+* A stands for angular
+* R stands for React
+* N stands for node.js
 
 
 
