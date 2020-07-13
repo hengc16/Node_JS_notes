@@ -105,3 +105,25 @@ console.log("...after event handlers...");
 
 we can add property called handled to data object. and trigger the second event only if the first event didn't not trigger properly.
 
+### single click handler
+
+```javascript
+const EventEmitter = require('events');
+const emitter = new EventEmitter();
+//unsubscribe the eventhandler from event1. old way
+const eventHandler = () => {
+    console.log('event handler called');
+    emitter.removeListener('event1', eventHandler);
+}
+emitter.on('event1', eventHandler);
+
+//new way
+emitter.once('event1', ()=>{
+    console.log("event handler called");
+});
+
+//emit to trigger
+emitter.emit('event1');
+emitter.emit('event1');
+```
+
