@@ -25,14 +25,11 @@ let server = http.createServer()
 2. 请求（request\),当用户请求发过来，会自动触发服务器的request事件，然后执行回调函数。
    1. 回调函数有个参数
       1. request：获取客户端的请求消息，如请求路径request.url
-         1. 在服务器发送数据默认是utf-8，但是浏览器在不知道服务器响应内容编码时，会自动按当前操作系统的默认编码去解析。
-         2. 解决办法是加res.setHeader\('Content-Type', 'text/plain; charset= utf-8'\) 
       2. response: 发响应消息给客户端
          1. response.write\(\) write 可以使用多次，但是一定要使用end来结束响应，否则会一直停在等待状态。
 
 ```javascript
 server.on('request' , function(request,response){
-    res.setHeader('Content-Type', 'text/plain; charset= utf-8') 
     console.log("收到请求,请求路径为" + request.url)
     response.write("hello")
     resposne.write("world")
