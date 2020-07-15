@@ -22,3 +22,16 @@
 
 ![](.gitbook/assets/image%20%287%29.png)
 
+### 模板字符串\` \`
+
+可以支持换行
+
+```javascript
+var foo = 
+`你好
+hello
+丆㟩
+    `
+console.log(foo)
+```
+
