@@ -43,4 +43,6 @@ var 自定义变量名 = require('模块')
 * 对应希望其他模块访问的成员，我们需要通过将其挂载到exports接口对象上实现公开
   * 导出多个成员: 挂载到exports对象
   * 导出单个成员：用module.exports做赋值操作，永远=最后一次赋值，覆盖之前的值。
+* exports 是module.exports的一个引用
+  * exports === module.exports     =&gt; true
 
