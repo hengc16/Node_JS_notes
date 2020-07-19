@@ -12,7 +12,7 @@ console.log(obj.pathname)
 console.log(obj.query)
 ```
 
-这里的true是表示把字符串转换为对象,通过query属性来访问。
+这里的**true**是表示把字符串转换为对象,通过query属性来访问。
 
 ```javascript
 else if(pathname === '/comment') {
