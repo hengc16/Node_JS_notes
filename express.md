@@ -78,3 +78,17 @@ app.get('/about', function(req, res) {
 //那query 就会是一个 {foo : 'bar'} 的一个object
 ```
 
+### 重定向：
+
+```javascript
+app.get('/comments', function(req, res){
+    let comment = req.query;
+    comment.date = '2020-7-19 9:28:51';
+    comments.unshift(comment);
+    res.redirect('/');
+})
+//注意 req.query只能拿get请求参数
+```
+
+### 
+
