@@ -21,7 +21,7 @@ app.use(express.static('./public'));
 app.use('/a/', express.static('./public'))
 ```
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 ### 防止资源外泄：
 
@@ -31,4 +31,10 @@ fileName = fileName.replace(/\.\./g, '_');
 ```
 
 用户有可能会想通过../来盲猜你其他的资源。
+
+
+
+### routing Parameters:
+
+![](.gitbook/assets/image%20%2815%29.png)
 
