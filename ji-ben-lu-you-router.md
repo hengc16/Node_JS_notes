@@ -23,3 +23,12 @@ app.use('/a/', express.static('./public'))
 
 ![](.gitbook/assets/image%20%2815%29.png)
 
+### 防止资源外泄：
+
+```javascript
+fileName = request.url
+fileName = fileName.replace(/\.\./g, '_');
+```
+
+用户有可能会想通过../来盲猜你其他的资源。
+
