@@ -21,7 +21,7 @@ app.use(express.static('./public'));
 app.use('/a/', express.static('./public'))
 ```
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 ### 防止资源外泄：
 
@@ -36,5 +36,5 @@ fileName = fileName.replace(/\.\./g, '_');
 
 ### routing Parameters:
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
