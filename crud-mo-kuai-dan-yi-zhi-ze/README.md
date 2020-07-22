@@ -1,4 +1,4 @@
-# CRUD-模块单一职责
+# CRUD小项目
 
 ### 起步
 
@@ -21,7 +21,7 @@
 ### express的路由容器：
 
 ```javascript
-var router = express.router();
+var router = express.outer();
 router.ger('/students', function(req,res){});
 module.exports = router;
 ```
@@ -32,4 +32,6 @@ module.exports = router;
 var router = requrie('./router');
 app.use(router);
 ```
+
+
 
