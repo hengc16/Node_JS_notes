@@ -2,6 +2,8 @@
 
 * [Node\_JS 介绍](README.md)
 * [ES6 common functions](es6-common-functions.md)
+* [回调函数](hui-tiao-han-shu.md)
+* [Promise](promise.md)
 * [Hello\_World](hello_world.md)
 * [模块系统](mo-kuai-xi-tong.md)
 * [读写文件](du-xie-wen-jian.md)
