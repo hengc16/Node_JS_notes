@@ -30,4 +30,5 @@
   * [封装ajax](crud-mo-kuai-dan-yi-zhi-ze/feng-zhuang-ajax.md)
   * [入口组件](crud-mo-kuai-dan-yi-zhi-ze/ru-kou-zu-jian.md)
   * [Json.file 模拟db](crud-mo-kuai-dan-yi-zhi-ze/json.file-mo-ni-db.md)
+* [MongoDB](mongodb.md)
 

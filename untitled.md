@@ -32,6 +32,11 @@
 * npm5以前是没有package-lock.json这个文件的
 * 当前安装包的时候，npm都会生成或更新package-lock.json这个文件
 * 5以后也不需要加--save 他会自动生成dependencies
+  * package-lock.json 会保存node\_modules中所以包的信息，（版本，下载地址）
+  * 提高下载速度
+* lock是为了锁定版本的
+
+
 
 
 
