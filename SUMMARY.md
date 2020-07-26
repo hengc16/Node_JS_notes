@@ -25,6 +25,9 @@
 * [multer](multer.md)
 * [请求不同的format](qing-qiu-bu-tong-de-format.md)
 * [CRUD小项目](crud-mo-kuai-dan-yi-zhi-ze/README.md)
+  * [编写步骤](crud-mo-kuai-dan-yi-zhi-ze/bian-xie-bu-zhou.md)
+  * [回调函数](crud-mo-kuai-dan-yi-zhi-ze/hui-tiao-han-shu.md)
+  * [封装ajax](crud-mo-kuai-dan-yi-zhi-ze/feng-zhuang-ajax.md)
   * [入口组件](crud-mo-kuai-dan-yi-zhi-ze/ru-kou-zu-jian.md)
   * [Json.file 模拟db](crud-mo-kuai-dan-yi-zhi-ze/json.file-mo-ni-db.md)
 

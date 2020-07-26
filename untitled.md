@@ -27,6 +27,16 @@
 * npm 命令 --help 
   * 具体不知道
 
+### package.json 和package-lock.json
+
+* npm5以前是没有package-lock.json这个文件的
+* 当前安装包的时候，npm都会生成或更新package-lock.json这个文件
+* 5以后也不需要加--save 他会自动生成dependencies
+
+
+
+
+
 
 
 
