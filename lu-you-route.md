@@ -28,5 +28,20 @@
 
 ![](.gitbook/assets/image%20%2824%29.png)
 
+![](.gitbook/assets/image%20%2826%29.png)
 
+一次处理一个响应。
+
+* **sendFile :**
+  * response.sendFile\(\_\_dirname + '/public/index.html\)
+  * 这里\_\_dirname 代表当前文件文件夹的目录
+  * 必须传递绝对路径
+* **set\(key,value\)**
+  * response header去network的header里面找
+  * set要在send前面set
+* **get\(key\)**
+  * 拿要在send后面get
+  * date拿不到
+  * 可以拿到自己set的key value
+  * 很少使用，我拿我自己set好的， 何必呢
 
