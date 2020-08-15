@@ -55,7 +55,9 @@ User.findOne({
     }
 })
 
-
+//拿所有，但是只是显示selected
+let res = User.find({}, 'username')
+console.log(res);
 ```
 
 ### 删除数据：
@@ -96,5 +98,9 @@ User.findByIdAndUpdate('5f1dcd26912cc108ac5a015a',{password: '1234567'},function
         console.log(res)
     }
 })
+//更新一个，第一个参数是根据属性找到document， 第二参数是更新那个document里的相应属性
+let res = await Course.updateOne( {courseNumber: 'cs701'}, 
+                                    {courseName: 'Rich Internet APP Development'});
+
 ```
 
