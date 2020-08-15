@@ -4,7 +4,7 @@
 
 ### request对象
 
-![](.gitbook/assets/image%20%2823%29.png)
+![](.gitbook/assets/image%20%2824%29.png)
 
 * query的查询字符串参数是指 
 
@@ -22,13 +22,13 @@
 * body 是用来拿post请求体，需要用bodyparser这个中间件来拿。
 * get 是用来获取request对象里的key所对value。
 
-![](.gitbook/assets/image%20%2825%29.png)
+![](.gitbook/assets/image%20%2826%29.png)
 
 ### Response对象
 
-![](.gitbook/assets/image%20%2824%29.png)
+![](.gitbook/assets/image%20%2825%29.png)
 
-![](.gitbook/assets/image%20%2826%29.png)
+![](.gitbook/assets/image%20%2827%29.png)
 
 一次处理一个响应。
 
