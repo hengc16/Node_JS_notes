@@ -3,6 +3,8 @@
 ### 概念：
 
 * 本质上就是一个函数，包含3个参数，request，response，next
+* 中间件设计理念，所有的中间件都是函数。
+* app.use\( UIRouter\(\)\) 注意，这里UIRouter是个函数，不是对象。
 
 ### 作用：
 
